@@ -1,6 +1,6 @@
 # Yara-docker
 
-Run DFIR unfurl cli tool in a docker container from https://github.com/obsidianforensics/unfurl
+Run DFIR unfurl cli tool in a docker container 
 
 # Usage
 
