@@ -1,11 +1,13 @@
-FROM ubuntu:latest
+#FROM ubuntu:latest
+FROM debian:stable-slim
+
 LABEL maintainer "Jim Clausing, jclausing@isc.sans.edu"
 LABEL version="yara 4.5.0"
 LABEL date="2024-03-04"
 LABEL description="Run yara in a docker container"
 
 # Install dependencies
-RUN apt-get update && apt-get -y install --no-install-recommends wget unzip ca-certificates curl gcc make pkg-config libprotobuf-dev libprotobuf23 autoconf automake libtool libltdl-dev libc6-dev zlib1g-dev
+RUN apt-get update && apt-get -y install --no-install-recommends wget unzip ca-certificates curl gcc make pkg-config libprotobuf-dev libprotobuf32 autoconf automake libtool libltdl-dev libc6-dev zlib1g-dev
 
 ENV PYTHONUNBUFFERED 1
 

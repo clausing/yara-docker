@@ -8,6 +8,7 @@ This file will be used to document notable changes
 ### Changed
 
 - Add some labels to Dockerfile
+- Rebase to debian:stable-slim to remove some vulnerabilities
 
 ## 2024-03-03
 
