@@ -10,7 +10,7 @@ jobs:
 
   build:
 
-    runs-on: python:3.10-slim-bookworm
+    runs-on: debian:stable-slim
 
     steps:
     - uses: actions/checkout@v3
