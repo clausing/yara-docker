@@ -8,6 +8,7 @@ This file will be used to document notable changes
 ### Changed
 
 - Updated workflow to reflect rebase
+- Added libssl3 and libssl-dev to make the hash module work
 
 ## 2024-03-04
 
