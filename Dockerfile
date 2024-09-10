@@ -2,8 +2,8 @@
 FROM debian:stable-slim AS build
 
 LABEL maintainer="Jim Clausing, jclausing@isc.sans.edu"
-LABEL version="yara 4.5.1"
-LABEL date="2024-07-05"
+LABEL version="yara 4.5.2"
+LABEL date="2024-09-10"
 LABEL description="Run yara in a docker container"
 
 # Install dependencies
