@@ -3,6 +3,12 @@
 <!-- markdownlint-disable MD033 -->
 This file will be used to document notable changes
 
+## 2026-08-02
+
+### Changed
+
+- Updated to yara 4.5.8
+
 ## 2025-11-12
 
 ### Changed
